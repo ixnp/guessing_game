@@ -1,40 +1,53 @@
 
-  var userName = prompt('What\'s your name?');
-  alert('Hello ' + userName + '. Thanks for coming to my site!');
+   var userName = prompt('What\'s your name?');
+   alert('Hello ' + userName + '. Thanks for coming to my site!');
 
   //We want to ask the user a question
   // take their answer as inpput; stored in a var
   // Validate thati their Answer matches my answer
   //Depending on True or False, provide feedback
 
-  var answerOne = prompt('What state was I born in?');
-  var myAnswerOne = 'Washington';
-    if (answerOne === myAnswerOne) {
-      alert('You got it right! I was born in Washington');
-    } else{
-      alert('Sorry, that\'s wrong I was born in Washingtom');
-    };
 
-    var answerOne = prompt('Who\'s my favorite Pokemon?');
-    var myAnswerOne = 'Mewtwo';
-      if (answerOne === myAnswerOne) {
-        alert('MEWTWO IS KING');
-      } else{
-        alert('no ...… it\'s Mewtwo, always until the end of time.');
-      };
 
-      var answerOne = prompt('Am I a Wizard?');
-      var myAnswerOne = 'Yes';
-        if (answerOne === myAnswerOne) {
+    var answerOne = prompt('Am I a Wizard?').toUpperCase();
+    var myAnswerOne = 'YES';
+        if ( answerOne === myAnswerOne || answerOne === 'Y') {
           alert('#Ravenclaw4life');
-        } else{
+        } else {
+          console.log('is not returning false value?')
+
           alert('….my letter to Hogwarts just got lost in the mail, okay?!');
         };
 
-        var answerOne = prompt('Who\'s the best Startrek Captain? (according to ix) ');
-        var myAnswerOne = 'Janeway';
-          if (answerOne === myAnswerOne) {
-            alert('RIGHT!? Janeway was the perfect mixture of competent and BadAss!');
-          } else{
-            alert('OH COME ON REALLY? Look Kathryn Janeway was superior to every captain in the series… I will fight you. ');
-          };
+        var answerTwo = prompt('Have I collected all original 151 Pokemon?').toUpperCase();
+        var myAnswerTwo = 'YES';
+          if (answerTwo === myAnswerTwo || answerTwo === 'Y') {
+            alert('Yes, it was my crowning achievement as an 8 year old! ');
+          }
+          else{
+            alert('I totally did! Do not underestimate my abilities as a Pokemon master!');
+      };
+
+          var answerThree = prompt('Is my favorite color Blue?').toUpperCase();
+          var myAnswerThree = 'YES';
+            if (answerThree === myAnswerThree || answerThree ==== 'Y') {
+              alert('No, I have no clue why everyone thinks that.');
+            } else{
+              alert('You are correct, my favorite color is Rainbow….');
+            };
+
+             var answerFour = prompt('Do you think I\'m tired right now?').toUpperCase();
+             var myAnswerFour = 'YES';
+               if (answerFour === myAnswerFour || answerFour === 'Y') {
+                 alert('…nods yes.');
+                 } else{
+                 alert('You are very wrong friend, I am perpetually tired.  ');
+               };
+
+               var pokemon = ['Mewtwo', 'Cat', 'dog', 'frog'];
+               var userPokmeonAnswer = prompt('Who\'s the best pokemon?')
+               if (pokemon.indexOf(userPokmeonAnswer)!==-1) {
+                 alert( 'yes.');
+               } else{
+                 alert('get out. ');
+               };

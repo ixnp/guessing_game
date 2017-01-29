@@ -14,10 +14,9 @@
         if ( answerOne === myAnswerOne || answerOne === 'Y') {
           alert('#Ravenclaw4life');
         } else {
-          console.log('is not returning false value?')
-
-          alert('….my letter to Hogwarts just got lost in the mail, okay?!');
+          alert('my letter to Hogwarts just got lost in the mail, okay?!');
         };
+        console.log('users input === YES or users input === Y')
 
         var answerTwo = prompt('Have I collected all original 151 Pokemon?').toUpperCase();
         var myAnswerTwo = 'YES';
@@ -26,7 +25,8 @@
           }
           else{
             alert('I totally did! Do not underestimate my abilities as a Pokemon master!');
-      };
+      }; consle.log('working')
+
 
           var answerThree = prompt('Is my favorite color Blue?').toUpperCase();
           var myAnswerThree = 'YES';
@@ -34,7 +34,8 @@
               alert('No, I have no clue why everyone thinks that.');
             } else{
               alert('You are correct, my favorite color is Rainbow….');
-            };
+            }; consle.log('.toUpperCase capitalizes input')
+
 
              var answerFour = prompt('Do you think I\'m tired right now?').toUpperCase();
              var myAnswerFour = 'YES';
@@ -42,7 +43,7 @@
                  alert('…nods yes.');
                  } else{
                  alert('You are very wrong friend, I am perpetually tired.  ');
-               };
+               }; consle.log(var === YES || Y)
 
                var pokemon = ['Mewtwo', 'Cat', 'dog', 'frog'];
                var userPokmeonAnswer = prompt('Who\'s the best pokemon?')

@@ -1,51 +1,63 @@
-html{
-  height: 100%;
-}
+
+
 body{
-
-  align-content: center;
-}
-h1{   margin-right: auto;
-  margin-left: auto;
-
-}
-nav{
-  float:left;
-  margin: 10px;
-  padding-right: 20px;
-    padding-left: -4px;
-    padding-top: 20px;
-  padding-bottom: 20px;
-background-color: yellow;
-}
-
-nav li{
-  margin: 10px;
-  background-color: red;
-  border-radius: 10px;
-  -moz-box-shadow:    inset 0 0 10px #000000;
-   -webkit-box-shadow: inset 0 0 10px #000000;
-   box-shadow:         inset 0 0 10px #000000;
-   padding: inherit;
-border-style: solid;
-   height: 50px;
-   width: 150px;
-   font-family: Arial, Helvetica, sans-serif ;
-   font-size: 14;
+        background-image: url(bg.jpg);
+         width:90%;
+         margin: 0 auto;}
+         /*image source: http://asunder.deviantart.com/art/New-Grunge-Textures-FREEBIE-143428607/*
+h1{
+  color:white;
+  text-align: center;
+  font-family: Rockwell;
 
 }
-.container1{
-  width: 400px;
-  background-color: #33EEFF;
-  padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 20px;
-  padding-bottom: 20px;
-    margin-right: auto;
-    margin-left: auto;
-    border-radius: 10px;
-    -moz-box-shadow:    inset 0 0 10px #000000;
-     -webkit-box-shadow: inset 0 0 10px #000000;
-     box-shadow:         inset 0 0 10px #000000;
-     float:left;
+
+#content {overflow:auto;}
+#nav, #feature, #footer{
+  margin: 1%;
+}
+.column1, .column2, .column3 {
+  width: 95.3%;
+  float: left;
+  margin: 1%;
+  color: white;
+  font-size: 1vw;
+  padding: 4px;
+}
+
+.column3 {margin-right: 0%;}
+li{
+  color:white;
+  text-align: center;
+  display: inline;
+  padding: 0.5em;
+  color: white;}
+
+#nav, #footer {
+  background-color: grey;
+  opacity: 0.8;
+   filter: alpha(opacity=50);
+  padding: 0.5em 0;
+  color:white;
+  text-align: center;}
+
+#feature, .article {
+  height: 10em;
+  margin-bottom: 1em;
+  background-color:grey;
+  opacity: 0.8;
+  color:white;
+  padding: 7px;
+}
+#all{
+  width:50%;
+}
+img{
+
+  float: left;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+
+
 }

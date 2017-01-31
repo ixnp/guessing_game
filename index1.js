@@ -22,17 +22,18 @@
       };
 
       var answerThree = prompt('Is my favorite color blue?').toUpperCase();
-        var myAnswerThree = 'NO';
-          if (answerThree === myAnswerThree || answerThree === 'N') {
+        var myAnswerThree = 'YES';
+          if (answerThree === myAnswerThree || answerThree === 'Y') {
                 alert('No, I have no idea why everyone thinks that. ');
                 }
                 else{
                   alert('You are correct, my favoirite color is Rainbow.');
             };
+
             var answerFour = prompt('Do you think I\'m tired right now?').toUpperCase();
                  var myAnswerFour = 'YES';
                    if (answerFour === myAnswerFour || answerFour === 'Y') {
-                     alert('…nods yes.');
+                     alert('nods yes.');
                      } else{
                      alert('You are very wrong friend, I am perpetually tired.  ');
                    };

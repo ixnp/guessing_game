@@ -3,12 +3,15 @@
 body{
         background-image: url(bg.jpg);
          width:90%;
-         margin: 0 auto;}
+         margin: 0 auto;
+         display:inline;
+           font-family: Rockwell;
+       }
          /*image source: http://asunder.deviantart.com/art/New-Grunge-Textures-FREEBIE-143428607*/
 h1{
   color:white;
   text-align: center;
-  font-family: Rockwell;
+
 
 }
 
@@ -23,6 +26,7 @@ h1{
   color: white;
   font-size: 1vw;
   padding: 4px;
+  text-align: center;
 }
 
 .column3 {margin-right: 0%;}
@@ -42,7 +46,7 @@ li{
   text-align: center;}
 
 #feature, .article {
-  height: 10em;
+
   margin-bottom: 1em;
   background-color:grey;
   opacity: 0.8;
